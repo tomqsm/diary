@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<config>
+    <gui>
+        <windowManager config-class="biz.letsweb.diary.pricePicker.picker.WindowManager"
+                       closable="false" resizable="true" defaultWidth="400"
+                       defaultHeight="250">
+        </windowManager>
+    </gui>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <properties>
+        <color>red</color>
+        <logging>${log.level}</logging>
+        <time>39225251129174</time>
+        <decimal_separator>,</decimal_separator>
+        <user_home>${expr:System.getProperty("user.home")}</user_home>
+        <host_ip>${expr:net.getLocalHost().getHostAddress()}</host_ip>
+        <host_name>${expr:net.getLocalHost().getHostName()}</host_name>
+        <sys_user_home>${sys:test}</sys_user_home>
+        <const_class>${const:java.awt.event.KeyEvent.VK_CANCEL}</const_class>
+        <env_java_home>${env:M2_HOME}</env_java_home>
+    </properties>
+</config>
